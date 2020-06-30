@@ -3,8 +3,9 @@ using namespace std;
 int x; //global varibale
 int main()
 {
-	//int x=10;  //variable is searched for in the closest scope. 
+	int x=10;  //variable is searched for in the closest scope. 
 	cout<<x<<endl;  //default value of global variable is 0.
+	cout<<::x<<endl; //global variable value
 	//new variable with same name in same scope only.
 	static int y;//will remain in the program throughout the run. Does not change with scope.
 	cout<<y<<endl;
