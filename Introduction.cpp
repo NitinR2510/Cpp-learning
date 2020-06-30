@@ -20,8 +20,19 @@ using namespace std;
 	cout<<x<<" "<<y<<endl;
 	//cin program
 	int a;
-	cout<<"Enter x: ";
-	cin>>x; //extraction operator
-	cout<<"Square of x is "<<(x*x)<<endl;
+	cout<<"Enter a: ";
+	cin>>a; //extraction operator
+	cout<<"Square of a is "<<(a*a)<<endl;
+	//note:
+	int c, d;
+	cout<<"Enter c: "<<endl;
+	cin>>c;
+	cout<<"Enter d: "<<endl;
+	cin>>d;
+	cout<<" c times d is "<<(c*d);
+	//if I enter two numbers while entering c, the program does not wait to enter d
+	//this is due to buffering.
+	//i.e c space d enter buffer. Input is buffered thus.
+	//endl flushes the buffer.
 	return 0;
 	}
