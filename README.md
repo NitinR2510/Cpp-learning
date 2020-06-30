@@ -1,5 +1,12 @@
 # Cpp-learning
  learning C++ during lockdown
+ 
+ **Topics covered**
+ <ol type="i">
+ <li>Compiler, about Cpp, Input/Output</li>
+ <li>Variables-1</li>
+ <li>Variables-2</li>
+ 
  ## Extra-notes
 **Errors in cpp**
 <ul>
