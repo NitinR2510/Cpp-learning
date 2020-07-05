@@ -17,7 +17,11 @@ fstream: This header file mainly describes the file stream. This header file is 
  <li>Compiler, about Cpp, Input/Output</li>
  <li>Variables-1</li>
  <li>Variables-2</li>
+ <li>Operators</li>
  </ol>
+ 
+ **Precendence of operators**
+ Check out this link: <https://en.cppreference.com/w/cpp/language/operator_precedence>
  
  ## Extra-notes
 **Errors in cpp**
@@ -52,6 +56,13 @@ fstream: This header file mainly describes the file stream. This header file is 
  </li>
  </ul>
  
+ **Note** 
+ The precedence of associativity is left to right in addition, subtraction etc. However for assignment operator it is right to left.<br>
+ Which is pretty clear actually if one sees the way in which variables are assigned values in C++.
+ 
+<b>I was simply practising C++ when I wrote this stuff down. If anything is wrong or depreciated, I appreciate any one who stumbles here by chance to let me know. You can just start an issue in the repository and I'll know.</b>
+
+
 
 
 
